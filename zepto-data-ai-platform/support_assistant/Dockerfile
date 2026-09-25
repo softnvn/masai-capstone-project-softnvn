@@ -1,6 +1,7 @@
 # Zepto Support Assistant — FastAPI + LangGraph + ChromaDB + all-MiniLM-L6-v2
 # Build:  docker build -t zepto-support-assistant .
 # Run:    docker run --rm -p 7860:7860 zepto-support-assistant        (MOCK_LLM defaults to 1)
+# Author: Naveen P softnvn@gmail.com
 FROM python:3.11-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
