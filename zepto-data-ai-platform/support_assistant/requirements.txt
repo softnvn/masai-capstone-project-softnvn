@@ -1,0 +1,11 @@
+# /support_assistant — RAG + LangGraph + FastAPI
+# torch is pulled in by sentence-transformers (the Dockerfile pre-installs the CPU-only wheel).
+sentence-transformers>=3.0
+chromadb>=0.5
+langgraph>=0.2
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+requests>=2.31     # optional MOCK_LLM=0 path (Groq API)
+httpx>=0.27        # FastAPI TestClient in tests
+pytest>=8.0
