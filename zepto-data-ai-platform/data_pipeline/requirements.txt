@@ -1,0 +1,7 @@
+# /data_pipeline — scrape -> clean -> SQLite -> query
+requests>=2.31
+beautifulsoup4>=4.12
+pandas>=2.1
+numpy>=1.26
+tabulate>=0.9      # DataFrame.to_markdown() for the query-results report
+pytest>=8.0        # offline tests
